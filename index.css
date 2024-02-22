@@ -1,0 +1,79 @@
+:root{
+  --theme_blue_main: rgb(48,48,244);
+  --theme_blue_dark: rgb(20,66,114);
+  --light_color: rgb(255,255,255);
+  --light_color_A: rgb(240,240,240);
+  --grey: rgb(150,150,150);
+  --grey_1: rgb(217,217,217);
+  --light_purple: rgb(230, 95, 158);
+  --green: rgb(0, 200, 0);
+}
+
+/* customize scrol bar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--theme_blue_main);
+  background: var(--light_color_A);
+  border-radius: 3px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--grey);
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--theme_blue_dark);
+}
+
+
+
+
+body{
+	margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#valid_device{
+  display: block;
+}
+
+#invalid_device{
+  display: none;
+  width: 90%;
+  height: 100%;
+  margin: 5%;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.page_container{
+  width: 100%;
+  float: left;
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+@media screen and (max-width: 300px){
+  #invalid_device{
+    display: block;
+  }
+  
+  #valid_device{
+    display: none;
+  }
+  
+}
+
+

@@ -1,0 +1,28 @@
+.online_assessment_engine_title{
+    width: 96%;
+    padding: 2%;
+    padding-bottom: 1%;
+    float: left;
+}
+
+.online_assessment_engine_section_left,
+.online_assessment_engine_section_right{
+    width: 50%;
+    float: left;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--theme_blue_dark);
+}
+
+.online_assessment_engine_section_right{
+    text-align: right;
+}
+
+
+@media screen and (max-width: 500px){
+    .online_assessment_engine_section_left,
+    .online_assessment_engine_section_right{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,121 @@
+.header_container{
+    background-image: url(../../assets/mtd_bg_header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    width: 100%;
+    height: 400px;
+ }
+ 
+ .header_half{
+     width: 48%;
+     margin: 1%;
+     float: left;
+     text-align: center;
+ }
+ 
+ .header_half img{
+     width: 345px;
+     height: 345px;
+ }
+ 
+ .header_title{
+     margin: 0;
+ }
+ 
+ .header_title{
+     width: 90%;
+     padding: 1%;
+     padding-bottom: 5%;
+     float: left;
+     color: var(--theme_blue_main);
+     font-weight: 600;
+     margin-bottom: 5%;
+     font-size: 35px;
+     text-align: left;
+     border-bottom: 10px dotted var(--light_purple);
+ }
+ 
+ .header_title span{
+     border-radius: 20px;
+     color: var(--light_purple);
+ }
+ 
+ .header_tabs{
+     width: 100%;
+     float: left;
+ }
+ 
+ .header_tabs .tab_container{
+     width: 200px;
+     height: 200px;
+     margin: 1%;
+ }
+
+
+
+ .link_button .dictionary_link{
+    text-decoration: none;
+    color: var(--light_color);
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 15px;
+    background-color: var(--light_purple);
+    box-shadow: 2px 2px 3px 1px var(--theme_blue_main);
+    float: left;
+    padding: 20px;
+    text-align: left;
+ }
+ 
+ .link_button .dictionary_link:hover{
+    background-color: var(--theme_blue_dark);
+    cursor: pointer;
+    box-shadow: 2px 2px 3px 1px var(--light_purple);
+ }
+
+ 
+ @media screen and (max-width: 1065px){
+    .header_title{
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 750px){
+    .header_half{
+        width: 98%;
+     }
+
+     .header_container{
+        background-size: 100% 360px;
+        height: auto;
+        margin-bottom: 5%;
+     }
+
+     .link_button .dictionary_link{
+        width: calc(96% - 40px);
+        margin-left: 2%;
+        margin-right: 2%;
+        text-align: center;
+     }
+
+     .header_title{
+        width: 98%;
+       font-size: 20px;
+       border: none;
+       padding-bottom: 0;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .header_container{
+        background-size: 100% 260px;
+     }
+
+     .header_half img{
+        width: 250px;
+        height: 250px;
+    }
+    
+}

@@ -1,0 +1,174 @@
+.socials_section_buttons{
+    float: left;
+    text-align: right;
+    margin-left: 2%;
+}
+
+.socials_section_buttons button{
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.socials_section_buttons button img{
+    width: 15px;
+    height: 15px;
+    padding-top: 2px;
+}
+
+.footer_bottom{
+    width: 100%;
+    margin-top: 1%;
+    float: left;
+    background-color: var(--light_color);
+    background-image: url(../../assets/mtd_bg_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.footer_bottom_section{
+    width: 46%;
+    float: left;
+    text-align: center;
+    padding: 2%;
+}
+
+.footer_bottom_section img{
+    width: 620px;
+    height: 300px;
+}
+
+.footer_bottom_section_title{
+    font-size: 17px;
+    font-weight: 600;
+    width: 96%;
+    margin: 2%;
+    float: left;
+    text-align: left;
+    color: var(--theme_blue_main);
+}
+
+.footer_bottom_section_title span{
+    color: var(--light_purple);
+}
+
+.footer_bottom_section_contacts_container{
+    width: 96%;
+    margin: 2%;
+    float: left;
+}
+
+.footer_bottom_section_contacts_item{
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--theme_blue_dark);
+    margin-bottom: 1%;
+    height: 20px;
+}
+
+.footer_bottom_section_contacts_item img{
+    width: 20px !important;
+    height: 20px !important;
+    margin: 0 !important;
+    float: left;
+}
+
+.footer_bottom_section_contacts_item span{
+    float: left;
+    width: calc(99% - 20px) !important;
+    height: 20px;
+    margin-left: 1%;
+}
+
+.footer_bottom_section_company{
+    width: 98%;
+    padding: 1%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--theme_blue_dark);
+    background-color: var(--grey_1);
+    float: left;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px){
+    .footer_bottom_section img{
+        width: 420px;
+        height: 200px;
+    }
+
+    .footer_bottom_section_title{
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 850px){
+    .footer_bottom_section img{
+        width: 420px;
+        height: 200px;
+    }
+
+    .footer_bottom_section_title{
+        font-size: 15px;
+    }
+
+    .footer_bottom_section{
+        width: 96%;
+    }
+
+    .footer_bottom_section_contacts_container{
+        float: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .socials_section_buttons{
+        display: flex;
+        float: none;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 550px){
+     
+    .footer_bottom_section_contacts_container{
+        float: left;
+        display: block;
+    }
+
+    .socials_section_buttons{
+        display: block;
+        float: left;
+    }
+
+    
+}
+
+@media screen and (max-width: 460px){
+     
+    .footer_bottom_section img{
+        width: 220px;
+        height: 100px;
+    }
+
+    .footer_bottom_section_title{
+        font-size: 14px;
+    }
+
+    .footer_bottom_section_company{
+        font-size: 10px;
+    }
+}
+
+
